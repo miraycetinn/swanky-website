@@ -1,0 +1,30 @@
+.bg-image {
+    position: relative; /* İçerikleri konumlandırmak için */
+}
+
+.navbar {
+    position: absolute;
+    top: 0; /* Navbar'ı yukarıda konumlandır */
+    left: 50%;
+    transform: translateX(-50%); /* Navbar'ı ortalamak için */
+    width: 80%; /* Navbar genişliği */
+}
+
+.navbar-brand img {
+    height: 40px; /* Logo yüksekliği */
+    width: auto; /* Orantıları koru */
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+h2 {
+    position: absolute;
+    bottom: 50px; /* Arka plan resminin üst kısmında yerleştirin */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    width: 100%; /* Başlığın tüm genişliği kaplaması */
+}
